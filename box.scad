@@ -1,3 +1,5 @@
+scale([1,1,1]){
+    
 cube([20,1,15],center=true);
 
 translate([0,-20,0])
@@ -15,3 +17,5 @@ cube([21,1,15],center=true);
 translate([10,-10,0])
 rotate([0,0,90])
 cube([21,1,15],center=true);
+
+    }
